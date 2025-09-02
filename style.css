@@ -16,6 +16,9 @@ body {
 
 main {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     background: hsl(0, 0%, 100%);
     max-width: fit-content;
 }
