@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 main {
@@ -27,4 +28,18 @@ main img {
     display: block;
     width: 300px;
     max-width: 500px;
+}
+
+#text-content p:first-child {
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 7%;
+}
+
+#text-content h1{
+    font-family: "montserrat", Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 2.7rem;
 }
