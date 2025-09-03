@@ -20,14 +20,15 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    width: 700px;
     gap: 20px;
     background: hsl(0, 0%, 100%);
+    padding-right: 20px;
 }
 
 main img {
     display: block;
-    width: 500px;
+    width: 300px;
     max-width: 300px;
 }
 
@@ -38,9 +39,17 @@ main img {
     margin-bottom: 7%;
 }
 
-#text-content h1{
+#text-content h1 {
     font-family: "montserrat", Helvetica, sans-serif;
     font-weight: 700;
     font-size: 3rem;
     line-height: 2.7rem;
+    margin-bottom: 5%;
+}
+
+#text-content p {
+    font-family: "montserrat", Helvetica, sans-serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 14px;
+    line-height: 1.5rem;
 }
