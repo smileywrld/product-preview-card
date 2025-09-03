@@ -24,13 +24,15 @@ main {
     gap: 20px;
     background: hsl(0, 0%, 100%);
     padding-right: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 main img {
+    border-radius: 15px;
     display: block;
     width: 300px;
     max-width: 300px;
+    border-radius: 15px 0  0 15px ;
 }
 
 #text-content p:first-child {
@@ -85,10 +87,11 @@ main img {
     font-weight: 700;
     border: none;
     padding: 15px 10px;
+    border-radius: 10px;
 
 }
 
-span{
+span {
     position: relative;
     top: 5px;
     right: 10px;
