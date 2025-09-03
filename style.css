@@ -40,7 +40,7 @@ main img {
 }
 
 #text-content h1 {
-    font-family: "montserrat", Helvetica, sans-serif;
+    font-family: "Fraunces", Helvetica, sans-serif;
     font-weight: 700;
     font-size: 3rem;
     line-height: 2.7rem;
@@ -52,4 +52,23 @@ main img {
     color: hsl(158, 36%, 37%);
     font-size: 14px;
     line-height: 1.5rem;
+    margin-bottom: 4%;
+}
+
+.price-container {
+    display: flex;
+    gap: 30px;
+}
+
+.price-container h2 {
+    font-family: "Fraunces", Helvetica, sans-serif;
+    font-size: 2rem;
+    color: hsl(158, 36%, 37%);
+}
+
+.price-container h4 {
+    font-family: "montserrat", Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: hsl(158, 36%, 37%);
 }
