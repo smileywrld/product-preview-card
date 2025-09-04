@@ -99,13 +99,32 @@ span {
 }
 
 @media (max-width: 400px) {
-    body{
-        padding: 20px;
-    }
 
-     /* main{
+    main {
+        padding: 0;
         flex-direction: column;
         width: fit-content;
         height: fit-content;
-    }  */
+        align-items: flex-start;
+    }
+
+    #text-content h1 {
+        font-size: 2rem;
+    }
+
+    #text-content {
+        padding: 20px;
+    }
+
+    main picture{
+        width: 100%;
+    }
+
+    main picture img{
+        border-radius: 15px;
+        display: block;
+        width: 100%;
+
+        border-radius: 15px 15px 0 0;
+    }
 }
