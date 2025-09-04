@@ -103,9 +103,9 @@ span {
         padding: 20px;
     }
 
-    main{
+     /* main{
         flex-direction: column;
         width: fit-content;
         height: fit-content;
-    }
+    }  */
 }
