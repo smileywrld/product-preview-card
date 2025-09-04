@@ -97,3 +97,15 @@ span {
     top: 5px;
     right: 10px;
 }
+
+@media (max-width: 400px) {
+    body{
+        padding: 20px;
+    }
+
+    main{
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content;
+    }
+}
