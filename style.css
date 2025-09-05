@@ -72,7 +72,7 @@ main img {
     color: hsl(158, 36%, 37%);
 }
 
-.price-container h4 {
+.price-container h3 {
     font-family: "montserrat", Helvetica, sans-serif;
     font-weight: 500;
     text-decoration: line-through;
